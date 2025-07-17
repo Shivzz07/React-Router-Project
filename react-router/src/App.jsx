@@ -9,7 +9,8 @@ function App() {
   return (
     <>
       <Header />
-      <Outlet  />
+      <Outlet  />  
+      {/* ^using this we did nesting and routting and the above and belowe component doesn't change when this is applied  */}
       <Footer />
     </>
   )
